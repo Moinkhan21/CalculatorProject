@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive behavior -->
+    <title>Calculator</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <!-- Main container for the calculator -->
+    <div class="container">
+        <div class="calculator">
+            <!-- Calculator form containing the display and buttons -->
+            <form>
+                <!-- Display area for showing calculations -->
+                <div class="display">
+                    <input type="text" name="display" readonly> <!-- Read-only input field for display -->
+                </div>
+                <!-- Row of buttons for calculator operations and numbers -->
+                <div>
+                    <input type="button" value="AC" class="operator"> <!-- Clear button -->
+                    <input type="button" value="DE" class="operator"> <!-- Delete button -->
+                    <input type="button" value="." class="operator"> <!-- Decimal button -->
+                    <input type="button" value="/" class="operator"> <!-- Division button -->
+                </div>
+                <div>
+                    <!-- Number buttons -->
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*" class="operator"> <!-- Multiplication button -->
+                </div>
+                <div>
+                    <!-- Number buttons -->
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-" class="operator"> <!-- Subtraction button -->
+                </div>
+                <div>
+                    <!-- Number buttons -->
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+" class="operator"> <!-- Addition button -->
+                </div>
+                <div>
+                    <!-- Number buttons -->
+                    <input type="button" value="00">
+                    <input type="button" value="0">
+                    <input type="button" value="=" class="equal operator"> <!-- Equal button -->
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>

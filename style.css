@@ -1,0 +1,65 @@
+/* Global styles for all elements */
+* {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-family: 'Poppins', sans-serif; /* Sets the font to Poppins */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Container for centering the calculator on the page */
+.container {
+    width: 100%; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #e3f9ff; /* Light blue background color */
+    display: flex; /* Flexbox layout for centering */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+}
+
+/* Calculator box styling */
+.calculator {
+    background-color: #3a4452; /* Dark background color */
+    padding: 20px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* General styles for all input elements in the form */
+.calculator form input {
+    border: none; /* Removes border */
+    outline: none; /* Removes outline */
+    width: 60px; /* Width of buttons */
+    height: 60px; /* Height of buttons */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), /* Light shadow for depth */
+                5px 5px 15px rgba(0, 0, 0, 0.2); /* Dark shadow for depth */
+    background-color: transparent; /* Transparent background for buttons */
+    font-size: 20px; /* Font size */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px; /* Margin around each button */
+}
+
+/* Styling for the display area of the calculator */
+form .display {
+    display: flex; /* Flexbox for alignment */
+    justify-content: flex-end; /* Right-aligns the display input */
+    margin: 20px 0; /* Margin above and below the display */
+}
+
+/* Input field styling inside the display */
+form .display input {
+    text-align: right; /* Right-aligns the text */
+    flex: 1; /* Fills the width of the display container */
+    font-size: 45px; /* Large font size for readability */
+    box-shadow: none; /* Removes box shadow */
+}
+
+/* Specific styles for the equal button */
+form input.equal {
+    width: 145px; /* Wider width for emphasis */
+}
+
+/* Specific styles for operator buttons */
+form input.operator {
+    color: #33ffd8; /* Light green text color for operators */
+}
