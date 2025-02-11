@@ -57,7 +57,7 @@ Styles the calculator with a **dark theme**, **rounded buttons**, and **smooth s
 ---
 
 ## 📌 Author  
-👨‍💻 **Your Name**  
+👨‍💻 Moinkhan  
 📧 moinmykhan07@gmail.com  
 🔗 www.linkedin.com/in/moinkhan021  
 
